@@ -1,0 +1,144 @@
+*{
+    font-family: 'Legend Mega' , sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 600px;
+    word-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title, #title-info, #img-caption, #second-header, #first-header {
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #111;
+}
+
+#title{
+    font-size: 2.5em;
+    margin-bottom: 0;
+    margin-top: 10px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    color: rgba(245, 155, 255, 0.52);
+}
+
+#title-info{
+    font-size: 1.3em;
+    font-style: italic;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #ffdb70;
+}
+
+.container2{
+    margin: 30px 7px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: #000;
+}
+
+#img-div{
+    background: #111;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-color: #333;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#img-caption{
+    padding-top: 5px;
+    padding-bottom: -4px;
+    color: rgba(245, 155, 255, 0.52);
+}
+
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+}
+
+ul{
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    text-align: justify;
+}
+
+li{
+    line-height: 40px;
+    font-weight: 500;
+}
+
+#second-header{
+    margin-top: 20px;
+}
+
+#line{
+    width: 30%;
+    height: 2px;
+    background-color: black;
+    border: 1px solid;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+
+}
+blockquote{
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+.quotediv{
+    padding: 15px;
+    background-color: #111;
+    color: purple;
+    border: 2px solid #ffdb70;
+    border-radius: 10px;
+}
+
+strong{
+    color: #ffdb70;
+}
+
+#a{
+    color: white;
+    margin: 30px 7px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: #000;
+}
+a{
+    color: blue;
+}
+
+h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+    font-family: "Anton", sans-serif;
+}
+
+footer{
+    text-align: center;
+}
